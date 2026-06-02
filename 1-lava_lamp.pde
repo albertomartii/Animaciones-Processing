@@ -42,7 +42,7 @@ void draw() {
       alpha = constrain(alpha, 0, 120);
 
       if (alpha > 0) {
-        fill(190, 80, 100, alpha);
+        fill(288, 90, 100, alpha); <---------------------------/* aquí se cambia el color (HUE)*/ 
         rect(x, y, resolution, resolution);
       }
     }
